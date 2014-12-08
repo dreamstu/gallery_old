@@ -1,0 +1,119 @@
+img{border:0;vertical-align:top;}
+
+ul{
+	list-style-type: none;
+}
+.golden_egg{
+    width:750px;
+    height: 645px;
+    background: url(./img/golden_bg.png);
+    position: relative;
+    display:none;
+}
+.golden_ul li{
+	width: 173px;
+	height: 210px;
+	float: left;
+	position: absolute;
+}
+
+.golden_ul li.curr{
+    cursor:default;z-index:300;
+}
+
+.golden_ul li a{
+	display: inline-block;
+	width: 173px;
+	height: 210px;
+}
+
+.act_golden_close{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	right: 0;
+	top:0;
+	cursor:pointer !important;
+}
+
+.golden_1{
+	top:272px;
+	left: 83px;
+}
+.golden_2{
+	top:305px;
+	left: 285px;
+}
+.golden_3{
+	top:272px;
+	left: 480px;
+}
+
+.pic {background-image: url(./img/eggs.png); display: block;}
+.pic_5 {background-position: -525px -0px; width: 80px; height: 90px; }
+.pic_3 {background-position: -350px -0px; width: 173px; height: 210px; }
+.pic_2 {background-position: -175px -0px; width: 173px; height: 210px; }
+.pic_1 {background-position: -0px -0px; width: 173px; height: 210px; }
+
+.hammer{width:74px;height:87px;position:absolute; text-indent:-9999px;z-index:150;left:168px;top:210px;display:none;}
+
+
+/**tips**/
+
+.wrapper {
+    position: relative;
+}
+
+.layer-ie-ok {
+    height: 230px;
+    background-position: 0 -300px;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/tips_ie5_ok.png');
+}
+
+.layer-ok {
+    width: 540px;
+    background: url(./img/tips.png) no-repeat 0 0;
+    _background: 0;
+}
+
+.layer-ie-no {
+    height: 230px;
+    background-position: 0 -240px;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/tips_ie5_no.png');
+}
+
+.layer-no {
+    width: 540px;
+    background: url(./img/tips.png) no-repeat 0 -240px;
+    _background: 0;
+}
+
+.layer-link {
+    position: absolute;
+    _position: relative;
+    display: block;
+    width: 194px;
+    height: 44px;
+    top: 144px;
+    left: 173px;
+    text-indent: -9999px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.layer-money{
+    position: absolute;
+    _position: relative;
+    display: block;
+    width: 93px;
+    height: 33px;
+    line-height: 33px;
+    top: 93px;
+    left: 260px;
+    font-style: normal;
+    color: #D02A2A;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
