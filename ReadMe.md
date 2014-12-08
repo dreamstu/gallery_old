@@ -1,9 +1,8 @@
-## quickjs 一套方便、灵活、简单、易用的前端解决方案
-### gallery是基于seajs的一套简单实用的组件库
+## gallery是基于seajs的一套简单实用的组件库（CMD Modules in the Sea）
 
 ## Usage
 
-- Getting Started: [readme](./docs/Readme.md)
+- Getting Started: [readme](https://github.com/dreamstu/gallery/tree/master/docs)
 
 
 ## Report a issue
