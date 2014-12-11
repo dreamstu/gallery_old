@@ -1,12 +1,3 @@
-/*!
- * PopupJS
- * Date: 2014-11-09
- * https://github.com/aui/popupjs
- * (c) 2009-2014 TangBin, http://www.planeArt.cn
- *
- * This is licensed under the GNU LGPL, version 2.1 or later.
- * For details, see: http://www.gnu.org/licenses/lgpl-2.1.html
- */
 define("gallery/dialog/0.1.0/popup-debug", [ "jquery-debug" ], function(require) {
     var $ = require("jquery-debug");
     var _count = 0;

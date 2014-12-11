@@ -1,9 +1,9 @@
 /* 
 Copyright 2014, QuickJS v1.0dev 
 MIT Licensed
-build time: 2014-12-08 14:48:05 
+build time: 2014-12-11 15:25:52 
 */
-// artDialog - 默认配置
+//默认配置
 define("gallery/dialog/0.1.0/dialog-config-debug", [], {
     /* -----已注释的配置继承自 popup.js，仍可以再这里重新定义它----- */
     // 对齐方式
@@ -51,15 +51,6 @@ define("gallery/dialog/0.1.0/dialog-config-debug", [], {
     innerHTML: '<div i="dialog" class="ui-dialog">' + '<div class="ui-dialog-arrow-a"></div>' + '<div class="ui-dialog-arrow-b"></div>' + '<table class="ui-dialog-grid">' + "<tr>" + '<td i="header" class="ui-dialog-header">' + '<button i="close" class="ui-dialog-close">&#215;</button>' + '<div i="title" class="ui-dialog-title"></div>' + "</td>" + "</tr>" + "<tr>" + '<td i="body" class="ui-dialog-body">' + '<div i="content" class="ui-dialog-content"></div>' + "</td>" + "</tr>" + "<tr>" + '<td i="footer" class="ui-dialog-footer">' + '<div i="statusbar" class="ui-dialog-statusbar"></div>' + '<div i="button" class="ui-dialog-button"></div>' + "</td>" + "</tr>" + "</table>" + "</div>"
 });
 
-/*!
- * artDialog
- * Date: 2014-11-09
- * https://github.com/aui/artDialog
- * (c) 2009-2014 TangBin, http://www.planeArt.cn
- *
- * This is licensed under the GNU LGPL, version 2.1 or later.
- * For details, see: http://www.gnu.org/licenses/lgpl-2.1.html
- */
 define("gallery/dialog/0.1.0/dialog-debug", [ "jquery-debug", "./popup-debug", "./dialog-config-debug" ], function(require) {
     var $ = require("jquery-debug");
     var Popup = require("./popup-debug");
@@ -404,15 +395,6 @@ define("gallery/dialog/0.1.0/dialog-debug", [ "jquery-debug", "./popup-debug", "
     return artDialog;
 });
 
-/*!
- * artDialog-plus
- * Date: 2013-11-09
- * https://github.com/aui/artDialog
- * (c) 2009-2014 TangBin, http://www.planeArt.cn
- *
- * This is licensed under the GNU LGPL, version 2.1 or later.
- * For details, see: http://www.gnu.org/licenses/lgpl-2.1.html
- */
 define("gallery/dialog/0.1.0/dialog-plus-debug", [ "jquery-debug", "./dialog-debug", "./popup-debug", "./dialog-config-debug", "./drag-debug" ], function(require) {
     var $ = require("jquery-debug");
     var dialog = require("./dialog-debug");
@@ -508,15 +490,6 @@ define("gallery/dialog/0.1.0/dialog-plus-debug", [ "jquery-debug", "./dialog-deb
     return dialog;
 });
 
-/*!
- * drag.js
- * Date: 2013-12-06
- * https://github.com/aui/artDialog
- * (c) 2009-2014 TangBin, http://www.planeArt.cn
- *
- * This is licensed under the GNU LGPL, version 2.1 or later.
- * For details, see: http://www.gnu.org/licenses/lgpl-2.1.html
- */
 define("gallery/dialog/0.1.0/drag-debug", [ "jquery-debug" ], function(require) {
     var $ = require("jquery-debug");
     var $window = $(window);
@@ -4073,15 +4046,6 @@ define("gallery/dialog/0.1.0/drag-debug", [ "jquery-debug" ], function(require) 
 
 $.noConflict();
 
-/*!
- * PopupJS
- * Date: 2014-11-09
- * https://github.com/aui/popupjs
- * (c) 2009-2014 TangBin, http://www.planeArt.cn
- *
- * This is licensed under the GNU LGPL, version 2.1 or later.
- * For details, see: http://www.gnu.org/licenses/lgpl-2.1.html
- */
 define("gallery/dialog/0.1.0/popup-debug", [ "jquery-debug" ], function(require) {
     var $ = require("jquery-debug");
     var _count = 0;

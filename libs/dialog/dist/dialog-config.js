@@ -1,4 +1,4 @@
-// artDialog - 默认配置
+//默认配置
 define("gallery/dialog/0.1.0/dialog-config", [], {
     /* -----已注释的配置继承自 popup.js，仍可以再这里重新定义它----- */
     // 对齐方式
