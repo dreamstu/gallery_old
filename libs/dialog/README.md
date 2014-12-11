@@ -82,7 +82,6 @@ dialog —— 经典、优雅的网页对话框控件。
 *	[其他](#other)
 	*	[自定义样式](#other-skin)
 	*	[源码构建](#other-grunt)
-	*	[dialog v5 升级 v6 参考](#other-upgrade)
 	*	[支持](#other-support)
 	
 ##	[引入 dialog](id:module)
