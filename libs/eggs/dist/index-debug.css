@@ -1,15 +1,15 @@
-/*! define gallery/eggs/0.1.0/index-debug.css */
+/*! define gallery/eggs/0.1.2/index-debug.css */
 img{border:0;vertical-align:top;}
 
 ul{
 	list-style-type: none;
 }
+
 .golden_egg{
     width:750px;
     height: 645px;
     background: url(./img/golden_bg.png);
     position: relative;
-    display:none;
 }
 .golden_ul li{
 	width: 173px;
@@ -36,6 +36,7 @@ ul{
 	right: 0;
 	top:0;
 	cursor:pointer !important;
+	background-color: #f96b8a;
 }
 
 .golden_1{
@@ -61,59 +62,23 @@ ul{
 
 /**tips**/
 
-.wrapper {
+.wrapper-modal {
     position: relative;
 }
 
-.layer-ie-ok {
-    height: 230px;
-    background-position: 0 -300px;
-    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/tips_ie5_ok.png');
+a.go{
+    text-decoration:none;
+    background:#ddd;
+    padding:5px 10px;
+    cursor:pointer;
 }
 
-.layer-ok {
-    width: 540px;
-    background: url(./img/tips.png) no-repeat 0 0;
-    _background: 0;
+a.go:hover{
+    color:#ffffff;
+    background:#df0007;
 }
 
-.layer-ie-no {
-    height: 230px;
-    background-position: 0 -240px;
-    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/tips_ie5_no.png');
-}
-
-.layer-no {
-    width: 540px;
-    background: url(./img/tips.png) no-repeat 0 -240px;
-    _background: 0;
-}
-
-.layer-link {
-    position: absolute;
-    _position: relative;
-    display: block;
-    width: 194px;
-    height: 44px;
-    top: 144px;
-    left: 173px;
-    text-indent: -9999px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
-.layer-money{
-    position: absolute;
-    _position: relative;
-    display: block;
-    width: 93px;
-    height: 33px;
-    line-height: 33px;
-    top: 93px;
-    left: 260px;
-    font-style: normal;
-    color: #D02A2A;
-    font-size: xx-large;
-    font-weight: bold;
-    text-align: center;
+p.successed{
+    font:23px/2.5em '微软雅黑';
+    text-align:center;
 }

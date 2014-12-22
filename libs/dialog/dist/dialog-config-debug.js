@@ -26,7 +26,7 @@ define("gallery/dialog/0.1.0/dialog-config-debug", [], {
     // 确定按钮文本
     okValue: "确定",
     // 取消按钮文本
-    cancelValue: "cancel",
+    cancelValue: "取消",
     cancelDisplay: true,
     // 内容宽度
     width: "500",

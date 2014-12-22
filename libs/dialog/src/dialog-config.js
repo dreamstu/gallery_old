@@ -40,7 +40,7 @@ define({
     okValue: '确定',
     
     // 取消按钮文本
-    cancelValue: 'cancel',
+    cancelValue: '取消',
 
     cancelDisplay: true,
     
